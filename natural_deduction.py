@@ -1,4 +1,4 @@
-# deduccion_natural.py
+
 
 # Introducción de conjunción: Si tienes A y B, puedes deducir A ∧ B
 def intro_conjunction(a, b):
@@ -38,7 +38,7 @@ def elim_implication(implication, a):
         return implication[2]
     raise ValueError("La implicación no aplica o no coincide con la premisa")
 
-# Función para manejar la entrada del usuario
+# manejo de la entrada de usuario
 def main():
     print("Bienvenido a la herramienta de deducción natural")
     print("Operaciones disponibles:")
@@ -101,5 +101,5 @@ def main():
     except ValueError as e:
         print(f"Error: {e}")
 
-# Ejecutar el programa
+
 main()
